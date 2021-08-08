@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:cornsilk;
+    margin:auto;
+    max-width: 1400px;   
+}
+
+.container{
+    max-width: 1400px;
+    margin:auto;
+    
+    
+}
+
+
+
+header{
+    background-color: #f1be8e;
+    text-align: center;
+    color:rgb(194, 74, 5);
+    padding: 15px;
+    
+
+}
+
+.title{
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+    overflow: hidden;
+    top: -30px;
+    position: relative;
+}
+
+#dinani{
+    width: 120px;
+    border-radius: 48%;
+    margin-left: 10px;
+    overflow:initial;
+    
+        
+}
+
+
+
+section{
+    padding: 20px;
+    background-image: url("./arquivos/french-baguette-with-turkish-bagels-and-slices-of-bread-in-basket.jpg");
+    background-size:cover;
+    overflow:hidden;    
+
+}
+
+
+.formcontainer {
+    max-width: 250px;
+    background-color: #ffffffbb;
+    padding: 10px;
+    float: right;
+    opacity: 80%;
+    color:rgb(194, 74, 5)
+
+}
+
+h2{
+   font-size: 20px;
+   padding: 5px;
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color:rgb(194, 74, 5);
+    font-weight: bold;
+
+
+}
+footer{
+    background-color: rgb(245, 205, 132);
+    padding: 20px;
+}
+
+
+
+.picture{
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 30%;
+    margin-left: 20px;
+    text-align: auto;
+    display: inline-block;
+    
+}
+
+.picture2{
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 30%;
+    margin-left: 20px;
+    text-align: auto    ; 
+    
+}
+
+
+.description{
+    display: inline-block;
+    color:rgb(194, 74, 5);
+    text-align: center;
+    margin-left: 40px;
+    
+
+
+}
+.description p{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contato{
+    text-align: center;
+    color:rgb(194, 74, 5);
+
+}
+
+.icons{
+    padding: 20px;
+    width: 40px;
+    
+    
+}
+
+@media screen and (max-width: 500px){
+    
+    .title{
+        font-size: 20px;
+        padding: 5px;
+        display: inline-block;
+        overflow: hidden;
+        top: -10px;
+        position: relative;
+    }
+    
+    
+    
+    .formcontainer{
+        float:center;
+        max-width: 400px;
+        
+    }    
+    
+    .picture{
+        width: 150px;
+        margin-bottom: 10px;
+        
+    }
+
+    .picture2{
+        width: 150px;
+        margin-bottom: 10px;
+        
+    }
+
+
+
+    
+    .description{
+        display: inline;
+        text-align: center;
+        color: white;
+        max-width: 100px;
+        margin-left: 5px;
+        
+
+
+    }
+
+    footer{
+        background-color:rgb(194, 74, 5); ;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .contato{
+        text-align: center;
+        color:rgb(253, 251, 250);
+
+
+
+
+
+}
